@@ -24,11 +24,10 @@ int main() {
     } else {
       low = mid;
     }
-
-    if(arr[low] == number) {
-      cout << "arr[" << low << "] = " << number;
-    } else {
+   }
+  if(arr[low] == number) {
+    cout << "arr[" << low << "] = " << number;
+  } else {
       cout << "NO";
-    }
   }
 }
