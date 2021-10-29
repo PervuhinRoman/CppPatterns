@@ -1,3 +1,5 @@
+//https://brestprog.by/topics/gcd/
+
 //Длинный НОД (долго выполняется)
 
 #include <iostream>
