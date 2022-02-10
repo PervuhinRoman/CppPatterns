@@ -1,6 +1,6 @@
 //https://brestprog.by/topics/gcd/
 
-//Длинный НОД (долго выполняется)
+//Длинный НОД (долго выполняется). Алгоритм Евклида в чистом виде
 int gcd(int a, int b) {
     while(a != b) {
         if(a > b) {
@@ -30,7 +30,7 @@ int gcd(int a, int b) {
 int gcd(int a, int b) {
     if(b == 0)
         return a;
-    return gcd(b ,a % b);
+    return gcd(b, a % b);
 }
 
 //Алгоритм нахождения НОК
